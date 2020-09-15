@@ -10,14 +10,18 @@ Install project dependencies
     npm install
 ```
 
-Run project
+Run client
 
 ```npm
-    npm start
+    npm run client:dev
 ```
 
-Run project in development mode
+Run server
 
 ```npm
-    npm run dev
+    npm run server
+Run server in development mode
+
+```npm
+    npm run server:dev
 ```

@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "client:dev": "webpack-dev-server --mode development",
-    "server:start": "node server.js",
+    "server": "node server.js",
     "server:dev": "nodemon server.js",
     "clean": "rimraf dist",
     "build": "npm run clean && webpack --mode production"
