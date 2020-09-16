@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+/*header*/
+
+.header {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    background-color: black;
+}
+
+.inner-header {
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+}
+
+.inner-header h1 {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    color: aqua;
+}
+
+/*Logs*/
+
+.container {
+    width: 100%;
+    height: 1800px;
+    display: flex;
+
+}
+
+.logs-container {
+    width: 15%;
+    height: auto;
+    font-size: 1.6rem;
+    margin:  32px auto;
+    flex-wrap: wrap;
+
+}
+
+.logs-list {
+    border: 2px solid black;
+    text-decoration-style: circle;
+    padding: 8px 32px;
+}
