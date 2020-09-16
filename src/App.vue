@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Header from "./components/Header.vue";
-import Logs from "./pages/Logs.vue";
+import Header from "@/components/Header.vue";
+import Logs from "@/pages/Logs.vue";
 
 export default {
     data() {

@@ -1,18 +1,13 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const { HotModuleReplacementPlugin } = require('webpack');
-const { join } = require('path');
-
-function resolve(dir) {
-    return join(__dirname, '..', dir);
-}
+const { resolve } = require('path');
 
 module.exports = {
     entry: './src/index.js',
     resolve: {
-        extensions: ['.js', '.vue', '.json'],
         alias: {
-            '@': resolve('src'),
+            '@': resolve(__dirname, 'src/'),
         },
     },
     plugins: [
