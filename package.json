@@ -1,9 +1,9 @@
 {
   "name": "training-logs",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "logs of workouts through the weeks.",
   "private": true,
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "client:dev": "webpack-dev-server --mode development",
     "server": "node server.js",
