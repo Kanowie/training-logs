@@ -31,10 +31,4 @@ export default {
 body {
     font-size: 16px;
 }
-
-.appContainer {
-    font-family: "Roboto", sans-serif;
-    display: flex;
-    justify-content: center;
-}
 </style>   
