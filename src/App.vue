@@ -1,30 +1,40 @@
 <template>
     <div class="appContainer">
-        <h1>{{heading}}</h1>
-
-        <Landing /> 
+        <Header></Header>
+        <Logs></Logs>
     </div>
 </template>
 
 <script>
-import Landing from './pages/Landing.vue';
+import Header from "./components/Header.vue";
+import Logs from "./pages/Logs.vue";
 
 export default {
     data() {
         return {
-            heading: 'Vue app container'
-        }
+            heading: "Vue app container",
+        };
     },
     components: {
-        Landing
-    }
-}
+        Header,
+        Logs,
+    },
+};
 </script>
 
 <style>
-    .appContainer {
-        font-family: 'Roboto', sans-serif;
-        display: flex;
-        justify-content: center;
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+.appContainer {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+}
 </style>   
