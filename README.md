@@ -20,6 +20,8 @@ Run server
 
 ```npm
     npm run server
+```
+    
 Run server in development mode
 
 ```npm
