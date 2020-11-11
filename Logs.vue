@@ -4,7 +4,7 @@
             <h2>Monday-Upper</h2>
             <div class="logs-list" id='upperData'>
                 <ul>
-                    <li v-for="session in trainingSessions" key:"session.id"> monday:{{session.mondayData}} </li>
+                    <li v-for="session in trainingSessions" :key="session.id"> {{session.monday}} </li>
                 </ul>
             </div>
         </div>
@@ -69,7 +69,7 @@
          }
     });
     </script>
-
+    
 <script>
 export default {
     name: "logs",
