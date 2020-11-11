@@ -1,12 +1,16 @@
 <template>
     <div class="header">
         <div class="inner-header">
-            <h1>Training-logs</h1>
+            <h1>{{headerTitle}}</h1>
         </div>
     </div>
 </template>
 
 <script>
+export default {
+    name: "LogsHeader",
+    props: ["headerTitle"],
+};
 </script>
 
 <style>

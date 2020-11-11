@@ -1,6 +1,6 @@
 <template>
     <div class="appContainer">
-        <Header></Header>
+        <Header :headerTitle="heading"></Header>
         <Logs></Logs>
     </div>
 </template>
@@ -12,7 +12,7 @@ import Logs from "@/pages/Logs.vue";
 export default {
     data() {
         return {
-            heading: "Vue app container",
+            heading: "Training Logs",
         };
     },
     components: {
